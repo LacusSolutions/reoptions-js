@@ -1,0 +1,15 @@
+**/.*
+
+src/
+test/
+
+bun.lock
+bun.lockb
+yarn.lock
+pnpm-lock.yml
+pnpm-lock.yaml
+package-lock.json
+eslint.config.mjs
+rollup.config.mjs
+tsconfig.json
+bunfig.toml

@@ -1,0 +1,81 @@
+{
+  "name": "reoptions",
+  "version": "0.0.0",
+  "description": "A declarative tool to manage function arguments and library options.",
+  "license": "MIT",
+  "author": {
+    "name": "Julio L. Muller",
+    "url": "https://github.com/juliolmuller"
+  },
+  "keywords": [
+    "args",
+    "arguments",
+    "params",
+    "parameters",
+    "options",
+    "function",
+    "helper",
+    "utility",
+    "utils",
+    "merge",
+    "defaults"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LacusSolutions/reoptions-js.git"
+  },
+  "bugs": {
+    "url": "https://github.com/LacusSolutions/reoptions-js/issues"
+  },
+  "homepage": "https://github.com/LacusSolutions/reoptions-js#readme",
+  "main": "build/index.cjs",
+  "types": "build/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./build/index.d.ts",
+      "require": {
+        "default": "./build/index.cjs"
+      },
+      "import": {
+        "default": "./build/index.mjs"
+      }
+    }
+  },
+  "scripts": {
+    "prepare": "bun x husky",
+    "commit": "commit",
+    "changelog": "changeset",
+    "version": "changeset version",
+    "release": "changeset publish",
+    "build": "rollup --config",
+    "type-check": "tsc --noEmit",
+    "lint": "eslint --fix src/ test/ eslint.config.mjs rollup.config.mjs",
+    "pretest": "bun run build --silent",
+    "test": "bun test --coverage --coverage-reporter=lcov --coverage-dir=test/__coverage__",
+    "test:ci": "bun test"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.28.3",
+    "@commitlint/cli": "^19.8.1",
+    "@commitlint/config-conventional": "^19.8.1",
+    "@commitlint/prompt-cli": "^19.8.1",
+    "@rollup/plugin-babel": "^6.0.4",
+    "@rollup/plugin-commonjs": "^28.0.6",
+    "@rollup/plugin-node-resolve": "^16.0.1",
+    "@rollup/plugin-terser": "~0.4.4",
+    "@rollup/plugin-typescript": "^12.1.4",
+    "@types/node": "^22.18.4",
+    "commitizen": "^4.3.1",
+    "cz-conventional-changelog": "^3.3.0",
+    "eslint": "^9.35.0",
+    "eslint-config-any": "^2.2.1",
+    "husky": "^9.1.7",
+    "lint-staged": "^16.1.6",
+    "prettier": "^3.6.2",
+    "rollup": "^4.50.2",
+    "rollup-plugin-delete": "^3.0.1",
+    "rollup-plugin-dts": "^6.2.3",
+    "rollup-plugin-esbuild": "^6.2.1",
+    "typescript": "^5.9.2"
+  }
+}

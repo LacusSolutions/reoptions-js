@@ -1,0 +1,2 @@
+bun x tsc --noEmit
+bun run test
