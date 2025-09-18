@@ -752,27 +752,23 @@ const result = buildSchema.validate({
 - **Memory Efficient**: No unnecessary object creation
 - **Tree Shakeable**: Modular design for optimal bundling
 
-## Contributing
+## Contribution & Support
 
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add some amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Changelog
-
-See [CHANGELOG.md](CHANGELOG.md) for a list of changes and version history.
-
-## Support
-
-If you find this project helpful, please consider:
+We welcome contributions! Please see our [Contributing Guidelines](./CONTRIBUTING.md) for details. But if you find this project helpful, please consider:
 
 - ⭐ Starring the repository
 - 🤝 Contributing to the codebase
 - 💡 [Suggesting new features](https://github.com/LacusSolutions/reoptions-js/issues)
 - 🐛 [Reporting bugs](https://github.com/LacusSolutions/reoptions-js/issues)
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/LacusSolutions/reoptions-js/blob/main/LICENSE) file for details.
+
+## Changelog
+
+See [CHANGELOG](tps://github.com/LacusSolutions/reoptions-js/blob/main/CHANGELOG.md) for a list of changes and version history.
+
+---
+
+Made with ❤️ by [Lacus Solutions](https://github.com/LacusSolutions)
