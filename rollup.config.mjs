@@ -12,9 +12,9 @@ import esBuildPlugin from 'rollup-plugin-esbuild';
 import packageMeta from './package.json' with { type: 'json' };
 
 const inputFileName = 'src/index.ts';
-const startYear = 2025
-const currentYear = new Date().getFullYear()
-const copyrightYear = currentYear === startYear ? currentYear : `${startYear}-${currentYear}`
+const startYear = 2025;
+const currentYear = new Date().getFullYear();
+const copyrightYear = currentYear === startYear ? currentYear : `${startYear}-${currentYear}`;
 const bundleBanner = `/**
  * reoptions v${packageMeta.version}
  *
