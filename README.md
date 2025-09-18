@@ -770,6 +770,9 @@ See [CHANGELOG.md](CHANGELOG.md) for a list of changes and version history.
 
 ## Support
 
-- 📖 [Documentation](https://github.com/LacusSolutions/reoptions-js#readme)
-- 🐛 [Issue Tracker](https://github.com/LacusSolutions/reoptions-js/issues)
-- 💬 [Discussions](https://github.com/LacusSolutions/reoptions-js/discussions)
+If you find this project helpful, please consider:
+
+- ⭐ Starring the repository
+- 🤝 Contributing to the codebase
+- 💡 [Suggesting new features](https://github.com/LacusSolutions/reoptions-js/issues)
+- 🐛 [Reporting bugs](https://github.com/LacusSolutions/reoptions-js/issues)
