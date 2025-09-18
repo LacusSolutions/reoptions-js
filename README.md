@@ -9,7 +9,7 @@
 
 A declarative solution for function argument validation and option management. Works seamlessly in both Node.js and browser environments with full TypeScript support.
 
-## ✨ Features
+## Features
 
 - 🎯 **Object Literal Schema Definition** - Declarative, OpenAPI-inspired schema format
 - 🔧 **Type-Safe Validation** - Full TypeScript support with type inference
